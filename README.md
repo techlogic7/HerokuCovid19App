@@ -50,4 +50,4 @@ If everything worked out correctly, then your application should be ready to dep
 
 Now your code will continue to run until you stop the dyno. To stop it scale it down using the command 'heroku ps:scale worker=0'
 
-# Note : keep your script python file and Procfile in the same folder , so that Heroku adds the add the worker and provide the resources properly to execute it without stopping, so you need to add your own schedule code to sleep your code (you can use schedule library for that , have a look in the covid19script.py file.
+## Note : keep your script python file and Procfile in the same folder , so that Heroku adds the add the worker and provide the resources properly to execute it without stopping, so you need to add your own schedule code to sleep your code (you can use schedule library for that , have a look in the covid19script.py file.
