@@ -28,7 +28,7 @@ On Heroku, open your App. Click on the Settings tab and scroll down to Buildpack
 # Step 3: Add the Config Vars
 Scroll to the config vars section. Here, we will add the paths to Chrome and the Chromedriver. Add the following config vars:
 
-CHROMEDRIVER_PATH = /app/.chromedriver/bin/chromedriver
+CHROMEDRIVER_PATH = /app/.chromedriver/bin/chromedriver \
 GOOGLE_CHROME_BIN = /app/.apt/usr/bin/google-chrome
 
 
