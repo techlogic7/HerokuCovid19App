@@ -20,9 +20,9 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), c
 # Step 2: Add the Buildpacks
 On Heroku, open your App. Click on the Settings tab and scroll down to Buildpacks. Add the following:
 
-1)Python (Select it from the officially supported buildpacks)
-2)Headless Google Chrome: https://github.com/heroku/heroku-buildpack-google-chrome
-3)Chromedriver: https://github.com/heroku/heroku-buildpack-chromedriver
+1) Python (Select it from the officially supported buildpacks)
+2) Headless Google Chrome: https://github.com/heroku/heroku-buildpack-google-chrome
+3) Chromedriver: https://github.com/heroku/heroku-buildpack-chromedriver
 
 
 # Step 3: Add the Config Vars
